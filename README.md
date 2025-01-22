@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c5eb4cc1-0c3d-497d-9422-1614651a84ab" alt="thumbnail_IMG_0546" width="150">
   <img src="https://github.com/user-attachments/assets/1b490f07-f28e-4418-8d41-14f1492890c6" alt="bjorn_epd-removebg-preview" width="150">
-  ![Heart500](https://github.com/user-attachments/assets/3d1e6d0d-d89e-473e-bc2e-d65b9d7c8e77)
+  <img src= "https://github.com/user-attachments/assets/3d1e6d0d-d89e-473e-bc2e-d65b9d7c8e77" alt="HackCocaine" width="150">
 
 </p>
 
