@@ -11,6 +11,9 @@ class EPDHelper:
         self.epd = self._load_epd_module()
 
     def _load_epd_module(self):
+        if self.epd.type == "none":
+         logger.info("EPD module loading skipped.")
+         return None
         try:
             epd_module_name = f'resources.waveshare_epd.{self.epd_type}'
             epd_module = importlib.import_module(epd_module_name)

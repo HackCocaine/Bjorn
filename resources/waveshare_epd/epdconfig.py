@@ -19,6 +19,9 @@ class RaspberryPi:
     SCLK_PIN = 11
 
     def __init__(self):
+        if self.config.get("epd_type") == "none" :
+         logger.info("Skipping GPIO initialization")
+         return
         import spidev
         import gpiozero
         

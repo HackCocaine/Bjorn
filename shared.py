@@ -244,6 +244,9 @@ class SharedData:
     #         raise
     def initialize_epd_display(self):
         """Initialize the e-paper display."""
+        if self.config.get("epd_type") == "none":
+         logger.info("EPD display disabled in configuration")
+         return
         try:
             logger.info("Initializing EPD display...")
             time.sleep(1)
@@ -273,6 +276,12 @@ class SharedData:
             raise
         
     def initialize_variables(self):
+        if not hasattr(self, "width"):
+         self.width = self.config.get("ref_width", 122)
+         self.height = self.config.get("ref_height", 250)
+        else:
+         self.width = self.get_screen_width()
+         self.height = self.get_screen_height()
         """Initialize the variables."""
         self.should_exit = False
         self.display_should_exit = False
