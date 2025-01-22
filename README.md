@@ -82,19 +82,10 @@ sudo chmod +x install_bjorn.sh && sudo ./install_bjorn.sh
 
 For **detailed information** about **installation** process go to [Install Guide](INSTALL.md)
 
-## ⚡ Quick Start
+## ⚡ HELP?
 
-**Need help ? You struggle to find Bjorn's IP after the installation ?**
-Use my Bjorn Detector & SSH Launcher :
-
-[https://github.com/infinition/bjorn-detector](https://github.com/infinition/bjorn-detector)
-
-![ezgif-1-a310f5fe8f](https://github.com/user-attachments/assets/182f82f0-5c3a-48a9-a75e-37b9cfa2263a)
-
-**Hmm, You still need help ?**
 For **detailed information** about **troubleshooting** go to [Troubleshooting](TROUBLESHOOTING.md)
 
-**Quick Installation**: you can use the fastest way to install **Bjorn** [Getting Started](#-getting-started)
 
 ## 💡 Usage Example
 
