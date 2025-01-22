@@ -79,6 +79,14 @@ Working versions I tested (Raspberry Pi4B):
 
 ### 🔨 Installation (Script UNTESTED!!)
 
+MANUAL: 
+- Install a clean OS from above in your PI MicroSD
+- Run installation script from Original creator | https://github.com/infinition/Bjorn?tab=readme-ov-file#-prerequisites
+- Select a random screen (If you don't have one of the supported ones)
+
+
+AUTO: SCRIPT BELOW IS UNTESTED:
+
 The fastest way to install Bjorn is using the automatic installation script :
 
 ```bash
@@ -88,11 +96,11 @@ sudo chmod +x install_bjorn.sh && sudo ./install_bjorn.sh
 # Choose the choice 1 for automatic installation. It may take a while as a lot of packages and modules will be installed. You must reboot at the end.
 ```
 
-For **detailed information** about **installation** process go to [Install Guide](INSTALL.md)
+For **detailed information** about **installation** process go to original [Install Guide](INSTALL.md)
 
 ## ⚡ HELP?
 
-For **detailed information** about **troubleshooting** go to [Troubleshooting](TROUBLESHOOTING.md)
+For **detailed information** about **troubleshooting** go to original [Troubleshooting](TROUBLESHOOTING.md)
 
 
 ## 💡 Usage Example
@@ -122,15 +130,7 @@ Here's a demonstration of how Bjorn autonomously hunts through your network like
 [+] Found config files, credentials, backups...
 ```
 
-This is just a demo output - actual results will vary based on your network and target configuration.
-
-All discovered data is automatically organized in the data/output/ directory, viewable through both the e-Paper display (as indicators) and web interface.
-Bjorn works tirelessly, expanding its network knowledge base and growing stronger with each discovery.
-
-No constant monitoring needed - just deploy and let Bjorn do what it does best: hunt for vulnerabilities.
-
-🔧 Expand Bjorn's Arsenal!
-Bjorn is designed to be a community-driven weapon forge. Create and share your own attack modules!
+LOGS
 
 ⚠️ **For educational and authorized testing purposes only** ⚠️
 
