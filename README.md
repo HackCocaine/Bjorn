@@ -94,8 +94,8 @@ Working versions I tested (Raspberry Pi4B):
 -Bjorn.py
 -/resources/waveshare_epd/epdconfig.py
 
-in your (shared_config.json)
-Set epdtype to "none"
+Finally, in your (shared_config.json)
+SET THIS | "epd_type": "none",
 
 You will find all on your directories:
 
