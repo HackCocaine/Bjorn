@@ -22,7 +22,7 @@ import time
 import sys
 import subprocess
 from init_shared import shared_data
-from display import Display, handle_exit_display
+#from display import Display, handle_exit_display
 from comment import Commentaireia
 from webapp import web_thread, handle_exit_web
 from orchestrator import Orchestrator
@@ -114,9 +114,9 @@ def handle_exit(sig, frame, display_thread, bjorn_thread, web_thread):
     """Handles the termination of the main, display, and web threads."""
     shared_data.should_exit = True
     shared_data.orchestrator_should_exit = True  # Ensure orchestrator stops
-    shared_data.display_should_exit = True  # Ensure display stops
+    #shared_data.display_should_exit = True  # Ensure display stops
     shared_data.webapp_should_exit = True  # Ensure web server stops
-    handle_exit_display(sig, frame, display_thread)
+    #handle_exit_display(sig, frame, display_thread)
     if display_thread.is_alive():
         display_thread.join()
     if bjorn_thread.is_alive():
@@ -135,9 +135,9 @@ if __name__ == "__main__":
         logger.info("Loading shared data config...")
         shared_data.load_config()
 
-        logger.info("Starting display thread...")
-        shared_data.display_should_exit = False  # Initialize display should_exit
-        display_thread = Bjorn.start_display()
+        #logger.info("Starting display thread...")
+        #shared_data.display_should_exit = False  # Initialize display should_exit
+        #display_thread = Bjorn.start_display()
 
         logger.info("Starting Bjorn thread...")
         bjorn = Bjorn(shared_data)
@@ -154,5 +154,5 @@ if __name__ == "__main__":
 
     except Exception as e:
         logger.error(f"An exception occurred during thread start: {e}")
-        handle_exit_display(signal.SIGINT, None)
+        #handle_exit_display(signal.SIGINT, None)
         exit(1)
