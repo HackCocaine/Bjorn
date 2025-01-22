@@ -77,7 +77,7 @@ Working versions I tested (Raspberry Pi4B):
 
 # 32BITS https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2024-10-28/
 
-### 🔨 Installation
+### 🔨 Installation (Script UNTESTED!!)
 
 The fastest way to install Bjorn is using the automatic installation script :
 
