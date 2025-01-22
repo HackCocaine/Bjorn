@@ -127,6 +127,7 @@ For **detailed information** about **troubleshooting** go to original [Troublesh
 Known Issues:
 - **Screen support has been disabled completely and WebUI is the main interface you will use**, this is until I can make an universal adaptable screen support script.
 - It seems to be some trouble generating logs for the tool, in order to address them and for further extension, I created a "**LOGS**" **button on the WebUI.**
+- SSH Only working through Wi-Fi or Ethernet (For Pi4 seems to be a problem with usb driver).
 
 ![image](https://github.com/user-attachments/assets/3f33b789-57f3-404f-b07c-b8c410502cd2)
 
