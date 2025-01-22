@@ -50,7 +50,8 @@ File Stealing: Extracts data from vulnerable services.
 
 User Interface: Operates seamlessly without requiring an attached screen.
 
-![Bjorn Display](https://github.com/infinition/Bjorn/assets/37984399/bcad830d-77d6-4f3e-833d-473eadd33921)
+![image](https://github.com/user-attachments/assets/2968f991-a243-4671-931b-f8ae7178e1ea)
+
 
 ## 🚀 Getting Started
 
