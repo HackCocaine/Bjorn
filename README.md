@@ -1,4 +1,5 @@
 
+
 # <img src="https://github.com/user-attachments/assets/3d1e6d0d-d89e-473e-bc2e-d65b9d7c8e77" alt="thumbnail_IMG_0546" width="33"> BjornCocaine
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
@@ -123,6 +124,14 @@ For **detailed information** about **installation** process go to original [Inst
 
 For **detailed information** about **troubleshooting** go to original [Troubleshooting](TROUBLESHOOTING.md)
 
+Known Issues:
+- **Screen support has been disabled completely and WebUI is the main interface you will use**, this is until I can make an universal adaptable screen support script.
+- It seems to be some trouble generating logs for the tool, in order to address them and for further extension, I created a "**LOGS**" **button on the WebUI.**
+
+![image](https://github.com/user-attachments/assets/3f33b789-57f3-404f-b07c-b8c410502cd2)
+
+![image](https://github.com/user-attachments/assets/fb10dddf-77f7-4c3f-98af-2e4a327d7dc9)
+
 
 ## 💡 Usage Example
 
@@ -151,18 +160,8 @@ Here's a demonstration of how Bjorn autonomously hunts through your network like
 [+] Found config files, credentials, backups...
 ```
 
-LOGS
 
 ⚠️ **For educational and authorized testing purposes only** ⚠️
-
-## 🤝 Contributing
-
-The project welcomes contributions in:
-
-- New attack modules.
-- Bug fixes.
-- Documentation.
-- Feature improvements.
 
 
 ## 📫 Contact
