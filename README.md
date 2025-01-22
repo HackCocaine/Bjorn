@@ -1,4 +1,5 @@
-# <img src="https://github.com/user-attachments/assets/c5eb4cc1-0c3d-497d-9422-1614651a84ab" alt="thumbnail_IMG_0546" width="33"> Bjorn
+
+# <img src="https://github.com/user-attachments/assets/3d1e6d0d-d89e-473e-bc2e-d65b9d7c8e77" alt="thumbnail_IMG_0546" width="33"> BjornCocaine
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
 ![Status](https://img.shields.io/badge/Status-Development-blue.svg)
@@ -10,12 +11,12 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c5eb4cc1-0c3d-497d-9422-1614651a84ab" alt="thumbnail_IMG_0546" width="150">
   <img src="https://github.com/user-attachments/assets/1b490f07-f28e-4418-8d41-14f1492890c6" alt="bjorn_epd-removebg-preview" width="150">
-  <img src= "https://github.com/user-attachments/assets/3d1e6d0d-d89e-473e-bc2e-d65b9d7c8e77" alt="HackCocaine" width="150">
+    <img src="https://github.com/user-attachments/assets/3d1e6d0d-d89e-473e-bc2e-d65b9d7c8e77" alt="HackCocaine" width="150">
 
 </p>
 
-Bjorn is a forked project intended to extend the capabilities of the original repository for real-world scenarios and more complex setups. This repository is not the original and is tailored for expanded use cases.
-For the original experience (e.g., Pi Zero with e-Paper HAT), please refer to the original repository.
+*BjornCocaine is a forked project intended to extend the capabilities of the original repository for real-world scenarios and more complex setups. This repository is not the original and is tailored for expanded use cases.
+**For the original experience (e.g., Pi Zero with e-Paper HAT), please refer to the original repository.***
 
 
 ## 📄 Introduction
@@ -33,24 +34,24 @@ Note: Testing and development for this fork are conducted on a Raspberry Pi 4 B 
 
 ## 🌟 Purposes and Motivations
 
-Make Bjorn run on any Raspberry Pi device, regardless of the attached screen.
+***Make Bjorn run on any Raspberry Pi device, regardless of the attached screen.***
 
-Extend capabilities to address realistic red team use cases.
+*Extend capabilities to address realistic red team use cases.*
 
-Incorporate solutions for community-reported issues and requested features.
+*Incorporate solutions for community-reported issues and requested features.*
 
 
 ## 🌟 Features
 
-Network Scanning: Identifies live hosts and open ports on the network.
+**Network Scanning:** Identifies live hosts and open ports on the network.
 
-Vulnerability Assessment: Performs vulnerability scans using Nmap and other tools.
+**Vulnerability Assessment:** Performs vulnerability scans using Nmap and other tools.
 
-System Attacks: Conducts brute-force attacks on various services (FTP, SSH, SMB, RDP, Telnet, SQL).
+**System Attacks:** Conducts brute-force attacks on various services (FTP, SSH, SMB, RDP, Telnet, SQL).
 
-File Stealing: Extracts data from vulnerable services.
+**File Stealing:** Extracts data from vulnerable services.
 
-User Interface: Operates seamlessly without requiring an attached screen.
+**User Interface:** Operates seamlessly without requiring an attached screen.
 
 ![image](https://github.com/user-attachments/assets/2968f991-a243-4671-931b-f8ae7178e1ea)
 
@@ -73,19 +74,32 @@ Debian version: 12 (Bookworm).
 
 Working versions I tested (Raspberry Pi4B):
 
-# 64BITS https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2024-10-28/
+64BITS https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2024-10-28/
 
-# 32BITS https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2024-10-28/
+32BITS https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2024-10-28/
 
 ### 🔨 Installation (Script UNTESTED!!)
 
-MANUAL: 
+**MANUAL:** 
 - Install a clean OS from above in your PI MicroSD
-- Run installation script from Original creator | https://github.com/infinition/Bjorn?tab=readme-ov-file#-prerequisites
+- Run installation script from Original creator | [Installation](https://github.com/infinition/Bjorn?tab=readme-ov-file#-prerequisites)
 - Select a random screen (If you don't have one of the supported ones)
+- Replace following files:
+-webapp.py
+-shared.py
+-epd_helper.py
+-Bjorn.py
+-/resources/waveshare_epd/epdconfig.py
+You will find all on your directories:
+![image](https://github.com/user-attachments/assets/0b0208e1-2ac2-4f5c-b8ba-544148345015)
 
 
-AUTO: SCRIPT BELOW IS UNTESTED:
+**My Setup**
+[Sreen and Case](https://www.amazon.com/-/es/Raspberry-ventilador-refrigeraci%C3%B3n-disipador-resoluci%C3%B3n/dp/B0936R564K/ref=sr_1_4?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-4)
+[RaspberryPi4](https://raspberrypi.cl/producto/raspberry-pi-4-modelo-b-8gb-ram/)
+[OS](https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2024-10-28/)
+
+**AUTO: SCRIPT BELOW IS UNTESTED:**
 
 The fastest way to install Bjorn is using the automatic installation script :
 
