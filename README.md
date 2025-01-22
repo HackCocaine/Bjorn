@@ -143,24 +143,11 @@ The project welcomes contributions in:
 - Documentation.
 - Feature improvements.
 
-For **detailed information** about **contributing** process go to [Contributing Docs](CONTRIBUTING.md), [Code Of Conduct](CODE_OF_CONDUCT.md) and [Development Guide](DEVELOPMENT.md).
 
 ## 📫 Contact
 
 - **Report Issues**: Via GitHub.
-- **Guidelines**:
-  - Follow ethical guidelines.
-  - Document reproduction steps.
-  - Provide logs and context.
-
-- **Author**: __infinition__
-- **GitHub**: [infinition/Bjorn](https://github.com/infinition/Bjorn)
-
-## 🌠 Stargazers
-
-[![Star History Chart](https://api.star-history.com/svg?repos=infinition/bjorn&type=Date)](https://star-history.com/#infinition/bjorn&Date)
-
----
+Anything else on my TG @HackCocaine
 
 ## 📜 License
 
