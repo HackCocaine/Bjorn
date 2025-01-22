@@ -85,12 +85,19 @@ Working versions I tested (Raspberry Pi4B):
 - Run installation script from Original creator | [Installation](https://github.com/infinition/Bjorn?tab=readme-ov-file#-prerequisites)
 - Select a random screen (If you don't have one of the supported ones)
 - Replace following files:
+
+
 -webapp.py
 -shared.py
 -epd_helper.py
 -Bjorn.py
 -/resources/waveshare_epd/epdconfig.py
+
+
 You will find all on your directories:
+
+
+
 ![image](https://github.com/user-attachments/assets/0b0208e1-2ac2-4f5c-b8ba-544148345015)
 
 
