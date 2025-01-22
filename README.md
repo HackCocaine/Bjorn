@@ -71,6 +71,10 @@ Kernel version: 6.6.
 
 Debian version: 12 (Bookworm).
 
+Working versions I tested (Raspberry Pi4B):
+64BITS https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2024-10-28/
+32BITS https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2024-10-28/
+
 ### 🔨 Installation
 
 The fastest way to install Bjorn is using the automatic installation script :
