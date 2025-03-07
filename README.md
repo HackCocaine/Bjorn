@@ -93,6 +93,7 @@ Working versions I tested (Raspberry Pi4B):
 -epd_helper.py
 -Bjorn.py
 -/resources/waveshare_epd/epdconfig.py
+-/web/index.html
 
 Finally, in your (shared_config.json)
 SET THIS | "epd_type": "none",
