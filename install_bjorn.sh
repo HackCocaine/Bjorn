@@ -307,6 +307,30 @@ setup_bjorn() {
     fi
 
     cd Bjorn
+	# Reemplazo de archivos desde el repositorio HackCocaine/BjornCocaine
+    log "INFO" "Reemplazando archivos modificados en BJORN..."
+
+    REPO_URL="https://raw.githubusercontent.com/HackCocaine/BjornCocaine/main"
+    FILES=(
+        "resources/waveshare_epd/epdconfig.py"
+        "webapp.py"
+        "shared.py"
+        "epd_helper.py"
+        "Bjorn.py"
+		"/web/index.html"
+    )
+
+    for file in "${FILES[@]}"; do
+        DEST_PATH="/home/$BJORN_USER/Bjorn/$file"
+        log "INFO" "Descargando y reemplazando: $file"
+        
+        # Crear el directorio si no existe
+        mkdir -p "$(dirname "$DEST_PATH")"
+        
+        curl -fsSL "$REPO_URL/$file" -o "$DEST_PATH"
+        check_success "Reemplazado: $file"
+    done
+	
 
     # Update the shared_config.json file with the selected EPD version
     log "INFO" "Updating E-Paper display configuration..."
@@ -630,7 +654,6 @@ main() {
 }
 
 main
-
 
 
 
