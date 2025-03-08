@@ -1,5 +1,6 @@
 
 
+
 # <img src="https://github.com/user-attachments/assets/3d1e6d0d-d89e-473e-bc2e-d65b9d7c8e77" alt="thumbnail_IMG_0546" width="33"> BjornCocaine
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
@@ -79,7 +80,7 @@ Working versions I tested (Raspberry Pi4B):
 
 32BITS https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2024-10-28/
 
-### 🔨 Installation (Script UNTESTED!!)
+### 🔨 Installation (Automatic Installation WORKING!)
 
 **MANUAL:** 
 - Install a clean OS from above in your PI MicroSD
@@ -87,16 +88,17 @@ Working versions I tested (Raspberry Pi4B):
 - Select a random screen (If you don't have one of the supported ones)
 - Replace following files:
 
+|Files to replace|
+|-|
+|shared.py
+|epd_helper.py|
+|Bjorn.py|
+|/resourcs/waveshare_epd/epdconfig.py| 
+|/web/index.html|
+|webapp.py|
 
--webapp.py
--shared.py
--epd_helper.py
--Bjorn.py
--/resources/waveshare_epd/epdconfig.py
--/web/index.html
-
-Finally, in your (shared_config.json)
-SET THIS | "epd_type": "none",
+Finally, in your (**shared_config.json**)
+**SET THIS** | "epd_type": "none",
 
 You will find all on your directories:
 
