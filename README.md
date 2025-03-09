@@ -80,7 +80,22 @@ Working versions I tested (Raspberry Pi4B):
 
 32BITS https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2024-10-28/
 
-### 🔨 Installation (Automatic Installation WORKING!)
+### 🔨 Installation
+
+**AUTO:**
+
+Give e good amount of Cocaine and automatic install this version using bash commands below :
+
+Please remember to use only the first Option (1. None) When installing, otherwise problems will happen since only that option is fully tested.
+
+
+```bash
+# Download and run the installer
+wget https://raw.githubusercontent.com/HackCocaine/Bjorn/refs/heads/main/install_bjorn.sh
+sudo chmod +x install_bjorn.sh && sudo ./install_bjorn.sh
+# Choose the choice 1 for automatic installation. It may take a while as a lot of packages and modules will be installed. You must reboot at the end.
+```
+
 
 **MANUAL:** 
 - Install a clean OS from above in your PI MicroSD
@@ -96,9 +111,10 @@ Working versions I tested (Raspberry Pi4B):
 |/resourcs/waveshare_epd/epdconfig.py| 
 |/web/index.html|
 |webapp.py|
-
-Finally, in your (**shared_config.json**)
-**SET THIS** | "epd_type": "none",
+-----------------------------------------------------------
+|(**shared_config.json**)|
+|-|
+| "epd_type": "none" |
 
 You will find all on your directories:
 
@@ -112,16 +128,6 @@ You will find all on your directories:
 [RaspberryPi4](https://raspberrypi.cl/producto/raspberry-pi-4-modelo-b-8gb-ram/)
 [OS](https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2024-10-28/)
 
-**AUTO: SCRIPT BELOW IS UNTESTED:**
-
-The fastest way to install Bjorn is using the automatic installation script :
-
-```bash
-# Download and run the installer
-wget https://raw.githubusercontent.com/HackCocaine/Bjorn/refs/heads/main/install_bjorn.sh
-sudo chmod +x install_bjorn.sh && sudo ./install_bjorn.sh
-# Choose the choice 1 for automatic installation. It may take a while as a lot of packages and modules will be installed. You must reboot at the end.
-```
 
 For **detailed information** about **installation** process go to original [Install Guide](INSTALL.md)
 
